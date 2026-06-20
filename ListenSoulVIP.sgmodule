@@ -3,7 +3,7 @@
 #!author=xy0305
 
 [Script]
-ListenSoulVIP = type=http-response,pattern=^http:\/\/106\.54\.24\.154:8090\/api\/users\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xy0305/script/main/ListenSoulVIP.js
+ListenSoulVIP = type=http-response,pattern=^https?:\/\/.*\/api\/users\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xy0305/script/main/ListenSoulVIP.js
 
 [MITM]
 hostname = 106.54.24.154
