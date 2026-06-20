@@ -6,4 +6,4 @@
 ListenSoulVIP = type=http-response,pattern=^https:\/\/api\.new\.listensoul\.top\/api\/users\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xy0305/script/refs/heads/main/ListenSoulVIP.js
 
 [MITM]
-hostname = %APPEND% api.new.listensoul.top
+hostname = %APPEND% 106.54.24.154
